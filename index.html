@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Calculator Web App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background = "mathematical_background.jpg">
+        <center>
+            <h1 class="btn btn-primary heading">Calculator Web App</h3>
+            <br><br>
+            <input id="number1Input">
+            <input id="number2Input">
+            <br><br>
+            <button class="btn btn-danger add" onclick="addition();"> + </button>
+            <button class="btn btn-danger minus" onclick="subtraction();"> - </button>
+            <br>
+            <button class="btn btn-danger multiply" onclick="multiplication();"> × </button>
+            <button class="btn btn-danger divide" onclick="division();"> ÷ </button>
+            <br><br>
+            <h3 id="statement"></h3>
+            <br><br>
+            <button class="btn btn-warning equal" onclick="equalsTo()"> = </button>
+            <br><br>
+            <h3 id="answer1">Answer : </h3>
+        </center>
+
+        <div id="copy_right_footer">
+            Developed by - Atharv
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>
